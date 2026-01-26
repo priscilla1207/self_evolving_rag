@@ -1,0 +1,85 @@
+# Environment variables
+.env
+.env.*
+app/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Secrets and Keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.der
+id_rsa
+id_rsa.pub
+known_hosts
+secrets.json
+secrets.yaml
+credentials.json
+token.json
+client_secrets.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Editor directories
+.vscode/
+.idea/
+
+# Local uploads
+uploads/
+
+# Local Vector DB
+qdrant_data/
